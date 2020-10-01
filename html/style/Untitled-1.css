@@ -170,16 +170,18 @@ background: #fae191;}
 .sort dl {float: left;}
 .sort dt {float: left;font-size: 12px; color: #747474;font-weight: bold;
 padding-right: 2px;}
-.sort dd {float: left; width: 109px;height: 19px; position: relative;}
+.sort dd {float: left; width: 109px;height: 19px; position: relative;margin-right: 12px;}
 .sort h2 {width: 108px;height: 17px;border:1px solid #ccc;
 font-size: 12px;color: #747474;font-weight: normal;text-indent: 5px;}
 .sort a {position: absolute;top: 0; left: 90px; width: 19px;height: 19px;
 background: url(../images/shopping-bg.png)0 -386px;z-index: 2;}
 .sort a:hover {background: url(../images/shopping-bg.png)-19px -386px;}
 .sort ul {width: 108px;border: 1px solid #ccc;background:#fff;
-position: absolute;top: 18px;left: 0;z-index: 1;}
-.sort li {font-size: 12px;line-height: 20px;text-indent: 5px;}
+position: absolute;top: 18px;left: 0;z-index: 1;display: none;}
+.sort li {font-size: 12px;line-height: 20px;text-indent: 5px;
+cursor: pointer;}
 .sort .active {background: #099;color: #fff;}
-.sort p {float: right;}
-.sort p strong{}
-.sort p span{}
+.sort p {font-size: 12px ; float: right;color: #747474;}
+.sort p strong{color: #999 ;}
+.sort p span{padding:0 5px; }
+.color_style {color: #b20e00;}
